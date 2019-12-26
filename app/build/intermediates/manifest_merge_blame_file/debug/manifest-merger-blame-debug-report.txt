@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.basic.programming.dbflownewversion"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:5:5-33:19
+12        android:name="com.basic.programming.dbflownewversion.configs.Sugar"
+12-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:6:9-38
+13        android:allowBackup="true"
+13-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.1.0] C:\Users\App Tech\.gradle\caches\transforms-2\files-2.1\279861f12c057092d1e6acc85106df71\core-1.1.0\AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:11:9-35
+21        android:theme="@style/AppTheme" >
+21-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:12:9-40
+22        <activity
+22-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:13:9-16:47
+23            android:name="com.basic.programming.dbflownewversion.apps.InsertVersion"
+23-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:14:13-47
+24            android:parentActivityName="com.basic.programming.dbflownewversion.apps.MainActivity"
+24-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:15:13-60
+25            android:theme="@style/AppTheme" />
+25-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:16:13-44
+26        <activity android:name="com.basic.programming.dbflownewversion.apps.MainActivity" >
+26-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:17:9-22:20
+26-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:17:19-52
+27            <intent-filter>
+27-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:18:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:19:17-69
+28-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:20:17-77
+30-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <meta-data
+34-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:24:9-26:43
+35            android:name="DATABASE"
+35-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:25:13-36
+36            android:value="versions.db" />
+36-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:26:13-40
+37        <meta-data
+37-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:27:9-29:33
+38            android:name="VERSION"
+38-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:28:13-35
+39            android:value="1" />
+39-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:29:13-30
+40        <meta-data
+40-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:30:9-32:36
+41            android:name="QUERY_LOG"
+41-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:31:13-37
+42            android:value="true" />
+42-->E:\androidappbymonths\videotutparttwo\DbflowNewVersion\app\src\main\AndroidManifest.xml:32:13-33
+43    </application>
+44
+45</manifest>
